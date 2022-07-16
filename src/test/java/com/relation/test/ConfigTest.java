@@ -10,7 +10,7 @@ public class ConfigTest {
     public void testConfiguration(){
         Session session = FactoryConfig.getFactory().openSession();
 
-        // Hibernate will auto create tables in database for us
+        // Hibernate creates tables in database for us
 
         session.close();
     }
